@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title>todo list</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <ul class="list-group todos mx-auto text-light" id="ul">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span class="span">learn html</span>
+        <i class="fa fa-trash-o delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span class="span">learn css</span>
+        <i class="fa fa-trash-o delete"></i>
+
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span class="span">learn js</span>
+        <i class="fa fa-trash-o delete"></i>
+
+      </li>
+    </ul>
+
+    <form class="add text-center my-4" autocomplete="off" id="form">
+      <label class="text-light">
+        Add New Todo
+      </label>
+      <input type="text" class="form-control m-auto" name="add" id="input" />
+    </form>
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
